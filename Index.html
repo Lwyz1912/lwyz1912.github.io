@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="tokyo-night-dark">
+    <div class="container">
+        <section id="home" class="hero">
+            <div class="hero-content">
+                <h1>Hello, I'm Luiz Alves</h1>
+                <p>I'm a web developer passionate about creating beautiful and functional websites. Currently a programming student focusing on front-end development.</p>
+                <a href="#projects" class="button">View My Work</a>
+            </div>
+            <div class="hero-image">
+                <img src="assets/img/Foto.jpg" alt="Profile Image">
+            </div>
+        </section>
+
+        <section id="projects" class="projects">
+            <h2>My Projects</h2>
+            <p>Here are some of the projects I've worked on recently.</p>
+            <div class="project-grid">
+                <div class="project-card">
+                    <img src="assets/img/todolist.png" alt="Project 1">
+                    <div class="project-info">
+                        <h3>My Todo List</h3>
+                        <p>A modern, responsive and themeable To-Do List built using HTML, CSS and JavaScript.</p>
+                        <a href="https://lwyz1912.github.io/todo-list/" class="button">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="assets/img/bmicalculator.png" alt="Project 2">
+                    <div class="project-info">
+                        <h3>BMI Calculator</h3>
+                        <p>A responsive and themeable Body Mass Index (BMI) calculator built with HTML, CSS, and JavaScript.</p>
+                        <a href="https://lwyz1912.github.io/bmicalculator/" class="button">View Project</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="https://via.placeholder.com/300x200" alt="Project 3">
+                    <div class="project-info">
+                        <h3>Project Title 3</h3>
+                        <p>A brief description of the project and the technologies used.</p>
+                        <a href="#" class="button">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="skills">
+            <h2>My Skills</h2>
+            <p>These are the technologies and tools I'm proficient with.</p>
+            <div class="skill-tags">
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">Responsive Design</span>
+                <span class="skill-tag">VS Code</span>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2025 My Portfolio. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/Lwyz1912"><ion-icon name="logo-github"></ion-icon></a>
+                <a href="https://www.linkedin.com/in/luiz-alves-00aa99268/"><ion-icon name="logo-linkedin"></ion-icon></a>
+                <a href="https://www.instagram.com/_luiz.alves__/"><ion-icon name="logo-instagram"></ion-icon></a>
+            </div>
+        </footer>
+    </div>
+
+    <div class="theme-toggle">
+        <button class="theme-button" data-theme="mayukai-light">ML</button>
+        <button class="theme-button" data-theme="mayukai-dark">MD</button>
+        <button class="theme-button" data-theme="tokyo-night-light">TL</button>
+        <button class="theme-button" data-theme="tokyo-night-dark">TD</button>
+    </div>
+
+    <!-- Add the Ion Icons script -->
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+    <script src="script.js"></script>
+</body>
+</html>
